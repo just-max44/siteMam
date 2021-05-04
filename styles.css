@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    outline-style: none;
+    font-family: cursive;
+
+}
+
+header {
+    background-color: orangered;
+    text-align: center; 
+    height: 130px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10%;
+    text-align: center;
+       
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+
+}
+
+h1,h3 {
+    color: white;
+    text-align: center;
+}
+div.header {
+    background:rgb(43, 42, 42);
+    height: 5em;  
+    width: 100%;  
+}
+
+footer.footer {
+    background-color: rgb(43, 42, 42);
+    height: 7em;
+    width: 100%;    
+    position: absolute;
+    bottom: 0;
+}
+
+div.contenu-footer {
+    color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+footer a {
+    color: rgb(0, 132, 255);
+    text-decoration: underline;
+}
+
+.title-contact{
+    font-size: 20px;
+    color: rgb(43, 42, 42);
+    text-align: center;
+    
+}
+
+table {
+    padding: 1%;
+    border: 2px solid orangered; margin-left: 50px; margin-right: 50px;
+}
+
+table.comment {
+    padding-top: 3%;
+}
+
+.formContact {
+    text-align: center;
+    padding-top: 5%;
+}
+
+input.btn {
+    margin-left: 40%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
