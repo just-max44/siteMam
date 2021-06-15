@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graine d'éveil</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
 </head>
 <body>
         
@@ -25,20 +27,21 @@
                     <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a></li>
                     <li><a href="Notre-projet-pedagogique.html"><i class="fas fa-baby"></i> Notre projet pédagogique</a></li>
                     <li><a href="Inscrire-mon-enfant.html"><i class="fas fa-seedling"></i> Inscrire mon enfant</a></li>
+                    <li><a href="galerie.html"><i class="far fa-images"></i> Galerie photo</a></li>
                     <li><a href="Nous-contacter.html"><i class="fas fa-comments"></i> Nous contacter</a></li>
+                    
                     <div class="a-nav-toggle">
                         <span class="a-toggle-icon"></span>
                     </div>    
                 </ul>                
-            </nav>               
+            </nav>            
            
         </header>  
         
-            <div>
-                <h4 class="title-contact">Nous contacter</h4>
-            </div> 
+            
 
             <div align="center">
+                <h4 class="title-contact">Nous contacter</h4>
                 <form class="formulary" action="contact.php" method="post"></form>
                     <table class="comment">
                         <tr>
@@ -84,21 +87,31 @@
                         </td></tr>   
                     </table>
                 </form>
+
+                
             </div>
-
-            
-        
     
-    <footer class="footer">
-        <div class="contenu-footer">
+            <div class="footer">
+        
+                <div class="contenu-footer">
+                    
+                    <div class="logo-fb">
+                        <h3>Suivez nous !</h3>
+                          
+                        <a href="https://www.facebook.com/mamgrainesdeveil" _blank>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook text-primary" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                        </a>
             
-            <p style="text-decoration: underline;">Notre adresse:</p>
-            <p>4, Place Saint Denis<br>53440 GRAZAY</p>
-            <a href="https://www.google.fr/maps/place/MAM+Graines+d'Eveil/@48.2914436,-0.485673,17z/data=!3m1!4b1!4m5!3m4!1s0x4809bb163cef537f:0x933e7df5bd3098d0!8m2!3d48.2914401!4d-0.4834843">Voir sur Google maps</a>          
-           
-        </div>
-    </footer>
-
+                    </div>
+                    <p style="text-decoration: underline;">Notre adresse:</p>
+                    <p>4, Place Saint Denis<br>53440 GRAZAY</p>
+                    <a href="https://www.google.fr/maps/place/MAM+Graines+d'Eveil/@48.2914436,-0.485673,17z/data=!3m1!4b1!4m5!3m4!1s0x4809bb163cef537f:0x933e7df5bd3098d0!8m2!3d48.2914401!4d-0.4834843">Voir sur Google maps</a>          
+                    
+                </div>
+            </div>
+    <script src="app.js"></script>
    
 </body>
 </html>
